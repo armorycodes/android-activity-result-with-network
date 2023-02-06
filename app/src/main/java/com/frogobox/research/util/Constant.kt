@@ -12,8 +12,15 @@ package com.frogobox.research.util
 
 object Constant {
 
+    object ResultCode {
+        const val RESULT_CODE_FROM_DETAIL_TO_ACTIVITY = 100
+        const val RESULT_CODE_FROM_DETAIL_TO_FRAGMENT = 200
+    }
+
     object Extra {
         const val EXTRA_DATA = "EXTRA_DATA"
+        const val RESULT_EXTRA_DATA = "RESULT_EXTRA_DATA"
+        const val EXTRA_KEY_FRAGMENT = "EXTRA_KEY_FRAGMENT"
     }
 
 }
